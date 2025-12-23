@@ -1,0 +1,52 @@
+--------------------------------------------------------------------------------------------------------------------
+                                           Super Global Variable 
+--------------------------------------------------------------------------------------------------------------------
+
+Super Global Variable:- yeh variable php and html ke connection e liye use hote hai eg: jaise humne ak php ka conditional code prepare kiya now we have to do take input by user and print if it on data.
+to tab ham super global variable($_GET,$_POST,$_REQUEST) ka use karenge
+--------------------------------------------------------------------------------------------------------------------     
+FORM TWO TYPES HOTE HAI 
+1)GET METHOD(DEFAULT) ISS MAIN JUB HUM SUBMIT KAERENGE TO ADDRESS TOP PE SHOW HOGA LIKE THIS (?num=1&res=Submit)
+2)POST METHOD :- YEH SECURE METHOD HAI CHANGE NOT REFLECT ON TOP. 
+--------------------------------------------------------------------------------------------------------------------
+1) $_GET[]                                   }  
+2) $_POST[]                                  }----YEH ARRAY TYPE KE HOTE HAI
+3) $_REQUEST[]        (GET AND POST METHOD.) }                              
+SO ACCORDING TO FORM CONDITION JUB GET METHOD DIYA HOGA TO (_GET) & POST METHOD DIYA HOGA TO (_POST).
+--------------------------------------------------------------------------------------------------------------------  
+                                             working
+
+<form method ="post/get">
+    <input type="number" name="num" placeholder="Enter 1 to 5 Numbers">
+    <input type="submit" name="res" vslue="Result">
+    </form>
+TWO METHOD get & post 
+a)agar hum get method use kar rahe hai form ka then jub input provide karenge to $_GET[] and $_REQUEST[] BOTH array main aayge 
+eg: 1)GET REQUEST
+Array
+(
+    [num] => 1
+    [res] => Submit
+)
+ GET+POST REQUEST
+Array
+(
+    [num] => 1
+    [res] => Submit
+)
+b)agar hum post method use kar rahe hai form ka then jub input provide karenge to $_POST[] and $_REQUEST[] BOTH array main aayge 
+eg: 1)POST REQUEST
+Array
+(
+    [num] => 1
+    [res] => Submit
+)
+ GET+POST REQUEST
+Array
+(
+    [num] => 1
+    [res] => Submit
+)
+
+                                             
+THANKYOU 

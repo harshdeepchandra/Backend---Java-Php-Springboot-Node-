@@ -1,0 +1,32 @@
+--------------------------------Float (datatype)----------------------------------
+it contain decimal value 
+syntax:-
+eg-$float1=10.245;
+yeh default main roundoff kar sakta hai 
+eg;-$float2=10.000;
+result =10
+----------------------------------------------------------------------------------
+error:
+echo 100/0;
+Fatal error: Uncaught DivisionByZeroError: Division by zero in C.
+----------------------------------------------------------------------------------
+                           Function 
+a)round:-yeh round off ke kam ata hai.round($float2,jitne value chiye );
+eg:-round($float2,3);
+b)ceil :- yeh round off high value ke kam ata hai.
+jase 10.7865 hai to yeh 11 take karaga.
+eg:-ceil($float2);
+c)floor:-yeh round off low value ke kam ata hai.
+jase 10.7865 hai to yeh 10 take karaga. 
+eg:-floor($float2);
+----------------------------------------------------------------------------------
+                                 Type-Testing(functions)
+----------------------------------------------------------------------------------
+a)integer:- is_int
+b)float:- is_int
+c)numaric:- is_int
+
+if its true then return 1 as result 
+if its false then not return in result in php. 
+----------------------------------------------------------------------------------
+                                     thanks

@@ -1,0 +1,37 @@
+-----------------------(Data Type In PHP)----------------------------------
+a)integer
+b)string
+c)float
+d)boolean
+e)constant
+f)null/Empty
+
+---------------------------------------------------------------------------
+                             INTEGER
+---------------------------------------------------------------------------
+yeh real number hote hai (1,2,6,89 etc)
+
+eg:
+$num1=18;
+---------------------------------------------------------------------------
+i)operation ;-
+third variable ka use karke hum 
+Addition,Subtraction,Multiplication,Division (+,-,*,/)
+eg:-
+$num1=4;
+$num2=6;
+
+$res1=$num1+$num2;
+---------------------------------------------------------------------------
+ii)increment/decrement 
+$i=5;
+$i++;
+---------------------------------------------------------------------------
+iii) function 
+A)rand ()
+
+this function pick /renerate random variable as result 
+eg:-
+echo rand();
+1056476708
+B)tockn ()

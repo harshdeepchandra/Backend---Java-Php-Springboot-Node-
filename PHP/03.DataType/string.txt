@@ -1,0 +1,92 @@
+---------------------------------(String)----------------------------------
+
+by using we can string set of character 
+ 
+$msg1="welcome to";
+$msg2="A";
+
+
+---------------------------------------------------------------------------
+i)single couts('')         |                Double Couts("") 
+-----------------------------------------------------------------------------  
+a)agar hum isme kuch likhte| jub hum isme kuch likhte hai to vo variable ke                 
+hai to direct print hota   | andar ke data ko print kar deta hai.                        
+hai.                       | 
+                           |  
+eg:$msg1="tututu";         | eg:$msg1="tututu";                                                      
+echo '$msg1';              |    echo '$msg1';                                              
+result:-$msg1              |    result:-tututu                                                                        
+                           |
+                           |
+                           |                          
+---------------------------------------------------------------------------
+Method to write  proper code:-
+---------------------------------------------------------------------------
+some example:
+1)AGAR HTML USE KARNI HO AND VARIABLE PRINT KARNA HO TO 
+echo "<h1>$msg1</h1>";
+
+2)SINGLE COUTS USE KIYE TO MSG PRINT NAHI HOGA :
+
+  echo '<h1> $msg1</h1>';
+
+3)two Message ak sath print  
+echo "<h1>$msg1 $msg2</h1>";
+
+4)right to html with print variable data by putting . (dot) for ''
+
+ echo '<h1>' . $msg1 . $msg2 .'</h1>';
+
+5)by using double couts and html +variable print 
+
+ echo "<h1>hello {$msg1} {$msg2} CHAD </h1>"
+                   or
+
+ echo "<h1>hello " .$msg1. "".$msg2. "CHAD </h1>"
+
+
+most useable 
+a)echo '<h1>'.$msg1.$msg2.'/h1';
+b)echo "<h1> msg1</h1>";
+
+.(dot) ---> add karna (jodna) 
+ 
+---------------------------------------------------------------------------
+                          error
+---------------------------------------------------------------------------
+$msg1="hello ";
+$msg2="user";
+echo $msg1 $msg2;
+
+error :Parse error: syntax error, unexpected token "echo", expecting "," or ";" in C
+solution :::-  echo $msg1. $msg2;        RESULT= hello user
+---------------------------------------------------------------------------
+                          php and html 
+hum php ke andar html ka code likh sakte hai by using echo 
+and hum html ke andar php ka code likh sakte hai 
+
+a) in html we also create php environment 
+<?php
+echo '<h1><?php echo $msg1 ;?></h1>';
+?>
+b)<?php echo '<h1> hello</h1>'?>
+---------------------------------------------------------------------------
+                             string functions
+---------------------------------------------------------------------------
+a) strtoupper($msg1);-------------upercase ke liye
+b) strtolower($msg1);-------------lowercase ke liye
+c) ucfirst($msg1);----------------first letter capital ke liye 
+d) ucwords($msg1);----------------words ko capital karta hai 
+
+
+
+2)repeat function 
+str_repeat($msg1,100=numberof time) 
+for using must use echo command 
+eg;-echo str_repeat($msg1,100=numberof time) ;
+
+3)lenght calculated fuction 
+strlen($msg1)
+eg;--echo strlen($msg1);
+---------------------------------------------------------------------------
+                              thanks

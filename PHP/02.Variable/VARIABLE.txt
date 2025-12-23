@@ -1,0 +1,20 @@
+FOR CREATING/INITALIZATION VARIABLE IN PHP USE "$" SYMBOL
+USE CAMEL CASE FOR VARIABLE 
+EG:variable name rule 
+$myAccount
+possiblity of VARIABLE
+$data---USE
+$data---USE
+$DATA----USE
+$mydata--usebut prefer camel case
+$myData--camel case
+$my data--space not allow (not use)
+$my-data--special sign not allow(not use)
+$my_data--allow
+$mydata1--use
+$1mydata--starting with number not allow (not use)
+$@mydata--special character not allow (not use)
+$_mydata--allow
+$__mydata--allow
+$___mydata--allow
+

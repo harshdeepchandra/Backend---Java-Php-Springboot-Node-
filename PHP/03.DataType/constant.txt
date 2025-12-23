@@ -1,0 +1,19 @@
+                                 CONSTANT(DATATYPE)
+---------------------------------------------------------------------------------
+YEH variable ki tarah simply define nahi hota isko function ke andra define karna padta hai 
+eg:-$cons=103;(wrong)
+    define("name",value);
+    define("DATA",130);
+---------------------------------------------------------------------------------
+rule 1 :-yeh define function ke andar Capital main define hota hai.
+
+eg:-define("DATA",130);
+    define("data",130);(wrong) error occur.
+Fatal error: Uncaught Error: Undefined constant "DATA" in C.
+
+ rule 2:- yeh repeat nahi ho sakta.
+        eg:-define("DATA",130);           {WARNING occur}
+            define("DATA",230);
+ Warning: Constant DATA already defined in C
+---------------------------------------------------------------------------------   
+

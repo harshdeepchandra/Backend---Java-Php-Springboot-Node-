@@ -1,0 +1,22 @@
+                             NULL & EMPTY(DATATYPE)
+-----------------------------------------------------------------------------
+A)null:-not contain any garbage collection value.
+eg:-$var1=null;
+
+B)empty:-contain any garbage collection value.
+eg:-$var2="";
+-----------------------------------------------------------------------------
+functions:-
+a)is_null()
+check karta hai variable null hai ya nahi 
+
+if its null then true otherwise no return.
+
+b)is_set()
+check karta hai ke variable is set or not
+if its set then true otherwise no return.
+
+c)empty()
+check karta hai variable empty hai ya nahi .
+
+if its empty then true(1) otherwise no return.
